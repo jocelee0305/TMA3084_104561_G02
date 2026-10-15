@@ -6,8 +6,8 @@ void main() {
   double overtime = emp.calculateOvertimePayment();
   double totalSalary = emp.calculateTotalSalary();
 
-  // print('Employee: ${emp.name}');
-  // print('Basic Salary: \$${emp.basicSalary} USD');
-  // print('Overtime Payment: \$${overtime} USD');
-  print('Total Salary   : \$${totalSalary.toStringAsFixed(2)} USD');
+  // print('Employee = ${emp.name}');
+  // print('Basic Salary = \$${emp.basicSalary} USD');
+  // print('Overtime Payment = \$${overtime} USD');
+  print('Total Salary = \$${totalSalary.toStringAsFixed(2)} USD');
 }
